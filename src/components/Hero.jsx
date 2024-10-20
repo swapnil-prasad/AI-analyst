@@ -23,7 +23,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Explore the possibilities of&nbsp;AI&nbsp; chatting with {" "}
             <span className="inline-block relative">
-               Nexus
+              AI Data Analyst
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -34,8 +34,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Nexus. Upgrade your productivity
-            with Nexus, the open AI powered chat app.
+            Unleash the power of AI within Data Analysis. Upgrade your productivity
+            with AI Data Analyst, the open AI powered analyst.
           </p>
           <Button href="/pricing" white>
             Get Started
@@ -67,7 +67,7 @@ const Hero = () => {
                 
                 <ScrollParallax isAbsolutelyPositioned>
                <Notification className=" hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-               title="Code generation "/>
+               title="Output generation "/>
                 </ScrollParallax>
               </div>
             </div>
